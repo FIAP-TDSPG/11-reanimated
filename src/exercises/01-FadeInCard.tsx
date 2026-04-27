@@ -1,7 +1,7 @@
 // =====================================================================
 // EXERCÍCIO 01 · Card com fade + slide
 //
-// 🎯 OBJETIVO
+// OBJETIVO
 // Quando o usuário tocar no botão "Mostrar card", o card deve aparecer
 // na tela com DUAS animações simultâneas:
 //
@@ -10,13 +10,13 @@
 //
 // O resultado deve ser um card que "sobe e aparece" suavemente.
 //
-// 📋 PASSOS
+// PASSOS
 //   - Crie 2 shared values (opacity, translateY)
 //   - Crie um animated style que use ambos
 //   - Implemente a função showCard que dispara as duas animações
 //   - Aplique o animated style na <Animated.View> do card
 //
-// 💡 DICAS
+// DICAS
 //   - opacity começa em 0, deve ir para 1
 //   - translateY começa em 30, deve ir para 0
 //   - withTiming(target, { duration: 600 })
@@ -118,7 +118,7 @@ export default function FadeInCard() {
       </View>
 
       <Text style={styles.hint}>
-        💡 Quando terminar, dispare a animação várias vezes seguidas
+        Quando terminar, dispare a animação várias vezes seguidas
         e veja se ela se comporta bem (resposta esperada: sim — sempre
         animar de 0 → 1 e 30 → 0, mesmo se já estiver no destino).
       </Text>
