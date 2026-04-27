@@ -1,4 +1,4 @@
-package com.animation
+package com.lucasrs.animation
 
 import android.app.Application
 import android.content.res.Configuration

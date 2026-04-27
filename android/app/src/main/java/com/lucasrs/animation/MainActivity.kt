@@ -1,4 +1,4 @@
-package com.animation
+package com.lucasrs.animation
 
 import android.os.Build
 import android.os.Bundle
