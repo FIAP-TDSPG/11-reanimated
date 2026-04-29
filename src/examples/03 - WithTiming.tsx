@@ -8,7 +8,7 @@ export default function WithTiming() {
     return {
       opacity: opacity.value
     }
-  })
+  });
 
   function toggleOpacity() {
     opacity.value = opacity.value === 1 ? 0.2 : 1;
